@@ -1,6 +1,6 @@
 # Dokumentasi Aplikasi Classify dan Pengambilan Gambar
 <p align="center">
-  <img src="logo.jepg" alt="Classify Logo">
+  <img src="logo.jpeg" alt="Classify Logo">
 </p>
 ## Gambaran Umum
   APlikasi Classify adalah sebuah aplikasi Android yang berguna untuk melakukan absensi siswa dengan menggunakan metode face-recognition memanfaatkan teknologi Deep Learning dengan menggunakan Algoritma dan CNN, yang mana aplikasinya dibagun dengan menggunakan framework Flutter. 
