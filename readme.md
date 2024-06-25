@@ -16,8 +16,10 @@ Aplikasi ini sendiri terdiri dari dua bagian utama yang berada dalam folder besa
 ## Struktur Aplikasi
 Aplikasi ini dibagi menjadi beberapa file dan folder, masing-masing dengan tujuan tertentu:
 
-- Folder `classify/classify_app`: Berisi kode sumber untuk Aplikasi Classify.
-- File `classify/image_dataset/main.py`: Berisi skrip untuk mengambil gambar dari kamera komputer.
+- Folder `classify/classify_app`:
+  Berisi kode sumber untuk Aplikasi Classify.
+- File `classify/image_dataset/main.py`:
+  Berisi skrip untuk mengambil gambar dari kamera komputer.
 
 ## Fitur
 
