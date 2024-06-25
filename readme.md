@@ -1,13 +1,14 @@
 # Dokumentasi Aplikasi Classify dan Pengambilan Gambar
 
 ## Gambaran Umum
-Aplikasi ini terdiri dari dua bagian utama yang berada dalam folder besar bernama `classify`: Aplikasi Classify dan skrip pengambilan gambar.
+  APlikasi Classify adalah sebuah aplikasi Android yang berguna untuk melakukan absensi siswa dengan menggunakan metode face-recognition memanfaatkan teknologi Deep Learning dengan menggunakan Algoritma dan CNN, yang mana aplikasinya dibagun dengan menggunakan framework Flutter. 
+Aplikasi ini sendiri terdiri dari dua bagian utama yang berada dalam folder besar bernama `classify`: Aplikasi Classify dan skrip pengambilan gambar.
 
-### Aplikasi Classify
-Aplikasi Classify adalah proyek Flutter yang berada dalam folder `classify_app`. Aplikasi ini menggunakan TensorFlow Lite untuk mengklasifikasikan gambar dari umpan kamera. Aplikasi ini juga mempertahankan daftar siswa dalam database SQLite, memungkinkan pengguna untuk menambahkan, melihat, dan menghapus catatan siswa.
+### 1. Aplikasi Classify
+  Aplikasi Classify adalah proyek Flutter yang berada dalam folder `classify_app`. Aplikasi ini menggunakan TensorFlow Lite untuk mengklasifikasikan gambar dari umpan kamera. Aplikasi ini juga mempertahankan daftar siswa dalam database SQLite, memungkinkan pengguna untuk menambahkan, melihat, dan menghapus catatan siswa.
 
-### Skrip Pengambilan Gambar
-Skrip ini berada dalam folder `image_dataset` dan bertugas untuk mengambil gambar dari kamera komputer dan menyimpannya ke dalam folder yang ditentukan. Gambar-gambar ini kemudian dapat digunakan untuk proses klasifikasi dalam Aplikasi Classify.
+### 2. Pengambilan Gambar
+  Skrip ini berada dalam folder `image_dataset` dan bertugas untuk mengambil gambar dari kamera komputer dan menyimpannya ke dalam folder yang ditentukan. Gambar-gambar ini kemudian dapat digunakan untuk proses klasifikasi dalam Aplikasi Classify.
 
 ## Struktur Aplikasi
 Aplikasi ini dibagi menjadi beberapa file dan folder, masing-masing dengan tujuan tertentu:
